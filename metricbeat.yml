@@ -1,0 +1,19 @@
+metricbeat.modules:
+- module: system
+  period: 10s
+  metricsets:
+    - cpu
+    - memory
+    - network
+    - filesystem
+    - load
+    - diskio
+    - process
+    - socket_summary
+  processors:
+    - drop_event.when.regexp:
+        system.process.cmdline: '^\['
+
+output.elasticsearch:
+  hosts: ["http://elasticsearch:9200"]
+

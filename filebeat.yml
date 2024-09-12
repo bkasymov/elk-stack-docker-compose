@@ -1,0 +1,16 @@
+filebeat.inputs:
+- type: filestream
+  id: nginx-logs
+  paths:
+    - /var/log/nginx/*.log
+  scan_frequency: 10s
+  parsers:
+    - multiline:
+        type: pattern
+        pattern: '^\['
+        negate: true
+        match: after
+
+output.elasticsearch:
+  hosts: ["http://elasticsearch:9200"]
+
