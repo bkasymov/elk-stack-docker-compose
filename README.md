@@ -1,8 +1,8 @@
 # 🚀 ELK Stack Powerhouse: Docker + Nginx Logs + System Metrics 📊
 
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/elk-stack-powerhouse.svg?style=social&label=Star)](https://github.com/yourusername/elk-stack-powerhouse)
-[![GitHub forks](https://img.shields.io/github/forks/yourusername/elk-stack-powerhouse.svg?style=social&label=Fork)](https://github.com/yourusername/elk-stack-powerhouse/fork)
-[![Docker Pulls](https://img.shields.io/docker/pulls/yourusername/elk-stack-powerhouse.svg)](https://hub.docker.com/r/yourusername/elk-stack-powerhouse)
+[![GitHub stars](https://img.shields.io/github/stars/bkasymov/elk-stack-docker-compose.svg?style=social&label=Star)](https://github.com/bkasymov/elk-stack-docker-compose)
+[![GitHub forks](https://img.shields.io/github/forks/bkasymov/elk-stack-docker-compose.svg?style=social&label=Fork)](https://github.com/bkasymov/elk-stack-docker-compose/fork)
+[![Docker Pulls](https://img.shields.io/docker/pulls/bkasymov/elk-stack-docker-compose.svg)](https://hub.docker.com/r/bkasymov/elk-stack-docker-compose)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 Supercharge your monitoring game with this all-in-one ELK (Elasticsearch, Logstash, Kibana) stack, turbocharged by Docker! 🐳 Effortlessly collect Nginx logs and system metrics for real-time insights into your server's performance.
